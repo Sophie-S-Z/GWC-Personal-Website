@@ -1,0 +1,124 @@
+/* STYLE SECTIONING TAGS */
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+main{
+  text-align: center;
+  font-family: "Marck Script", cursive;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+body {
+ background-color: #DDBEA8; 
+  text-align: center;
+  font-family: "Marck Script", cursive;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  font-size: 600%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #c26f56;
+  font-family: "Marck Script", cursive;
+  text-align: center;
+  font-weight: bold;
+  text-decoration-color: salmon;
+}
+
+h2 {
+  font-size: 300%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #df876d;
+  font-family: "Marck Script", cursive;
+  text-align: center;
+  font-weight: bold;
+  text-decoration-color: salmon;
+}
+
+p {
+  font-family: "Marck Script", cursive;
+  font-size: 150%;
+  text-align: center;
+  color: #ffeee5;
+  margin-bottom: 2em;
+}
+
+#intro {
+  font-size: 150%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: #ffdecc;
+  font-family: "Marck Script", cursive;
+  text-align: center;
+  font-weight: bold;
+  text-decoration-color: salmon;
+}
+
+/* STYLE IMAGES */
+img {
+  max-width: 40%;
+  max-height: 40%;
+  margin-bottom: 3em;
+}
+
+.hi {
+  max-width: 40%;
+  max-height: 40%;
+  margin-bottom: 10em;
+}
+
+#me {
+  text-align: center;
+  max-width: 25%;
+  max-height: 25%;
+  border-radius: 50%;
+  border: 3px solid #dd9078;
+  margin-bottom: 3em;
+}
+
+#bulb {
+  text-align: left;
+  max-width: 20%;
+  max-height: 20%;
+  margin-bottom: -1em;
+}
+
+#ideaman {
+  text-align: right;
+  max-width: 15%;
+  max-height: 15%;
+  margin-bottom: -1em;
+}
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #bf654a;
+  overflow: hidden;
+  padding: 1em;
+  margin-bottom: 3em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #ffeee5;
+  font-size: 1.5em;
+  padding: 2em;
+}
+
+li a:hover {
+  background-color: #ff825c;
+}
